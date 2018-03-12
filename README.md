@@ -1,9 +1,18 @@
-forums_flask
 
-app mini project: 1.members can update/create profile 2.member can add/update/delete posts
+# forums_flask
 
-create templates for webpage using: html/css
+app mini project: 1.members can update/create profile
+                  2.member can add/update/delete posts 
 
-wireframe used: Flask
 
-Deploying with git using: HeroKu platform: https://stormy-chamber-27411.herokuapp.com/
+
+create templates for webpage using:
+html/css 
+                
+wireframe used:
+Flask
+
+Deploying with git using:
+HeroKu platform: 
+https://stormy-chamber-27411.herokuapp.com/ 
+
