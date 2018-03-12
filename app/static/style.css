@@ -6,16 +6,23 @@ h1 {
 	color:black;
 	text-align:center;
 	font-size: 60px;
-ul {
-	list-style-type: none;
-	text-align: center; 
-	margin: 0;
-	padding:0;
 
 }
 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	text-align:cenetr;
+} 
+	
+ 
+
 li {
+	
 	float:left;
+	margin: 0;
+	padding:0;
     
 }
 li a{
