@@ -7,10 +7,10 @@
 
 <body>
 	<h1>Workshop forums</h1>
-	<div>
-	<p><a href="#">Members</a>
-	<a href="#">Profile</a></p> 
-	</div>
+	<ul>
+		<li><a href="#">Members</a></li>
+	    <li><a href="#">Profile</a></li> 
+	</ul>
 <form action="{{ url_for("topic_add") }}" method="post">
 	<h2>Add new Post </h2>
     
@@ -29,9 +29,10 @@
 	
 	
 </form>
-<div>
-	<p id="footer"> Done by: Nouran Nouh </p>
-</div>
+<footer>
+    <h4>Done by: Fethi TChi</h4>
+</footer>
 
 </body>
+
 </html>

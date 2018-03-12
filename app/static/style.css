@@ -6,8 +6,23 @@ h1 {
 	color:black;
 	text-align:center;
 	font-size: 60px;
+ul {
+	text-align: center; 
+	margin: 0;
 
 }
+
+li {
+	float:left;
+    
+}
+li a{
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+}
+
 h2 {
 	color:black;
 	font-family: verdana;
