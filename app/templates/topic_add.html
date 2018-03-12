@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+   
+</head>
+
+<body>
+	<h1>Workshop forums</h1>
+	<div>
+	<p><a href="#">Members</a>
+	<a href="#">Profile</a></p> 
+	</div>
+<form action="{{ url_for("topic_add") }}" method="post">
+	<h2>Add new Post </h2>
+    
+	Title:<br>
+	<input type="text" name="title" class="title"/></br>
+	<textarea  row="6" cols="30" name="content" 
+	class="content">Enter content here... 
+	</textarea>
+	
+	<br>
+	<br> 
+		<input type="submit" value="Create" class="button">
+	</br>
+	 
+
+	
+	
+</form>
+
+
+</body>
+</html>

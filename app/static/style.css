@@ -1,0 +1,46 @@
+
+body{
+	background-color:lightblue;
+}
+h1 {
+	color:black;
+	text-align:center;
+	font-size: 60px;
+
+}
+h2 {
+	color:black;
+	font-family: verdana;
+	font-size: 80% ;
+	
+}
+div{
+    color:blue;
+    text-align:center;
+}
+table{
+	width: 100%;
+}
+th{
+	text-align:left;
+}
+.title{
+	width: 30%;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.content{
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
