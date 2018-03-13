@@ -40,7 +40,7 @@ def topic_show(id):
 		return render_template("topic_show.html",post=post) 
 
 @app.route("/topic/delete/<int:id>")
-def topic_delete(id):
+def topic_delete(id): 
 	post_store.delete(id)
 	return redirect(url_for("home"))
 	
