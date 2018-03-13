@@ -35,7 +35,7 @@ def topic_update(id):
 def topic_show(id):
 	post=post_store.get_by_id(id)
 	if post is None:
-		abort(404; "couldnot find this topic")
+		abort(404, "couldnot find this topic")
 	else:
 		return render_template("topic_show.html",post=post) 
 
