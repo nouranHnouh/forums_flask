@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for, jsonify
+from flask import render_template, request, redirect, url_for, jsonify,abort
 from app import models
 from app import app, member_store, post_store
 
@@ -43,4 +43,11 @@ def topic_show(id):
 def topic_delete(id): 
 	post_store.delete(id)
 	return redirect(url_for("home"))
+
+@app.route("/api/topic/all")
+def topic_get_all():
+	#convert every objects in the list to dictionary format
+	posts=[post.__dict__() for post in post_store.get_all()]
+	#use jsonify to convert objects to JSON format
+	return jsonify(posts) 
 	

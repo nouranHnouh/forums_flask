@@ -16,6 +16,13 @@ class Member():
 		return 'Name:{}\nAge: {}'.format(self.name,self.age)
 	def __repr__(self):
 		return "<name:%s age %s>"%(self.name,self.age)
+	def __dict__(self):
+		return {
+			"id":self.id,
+			"name":self.name,
+			"age":self.age,
+			"posts":self.posts,
+		}
 		
 class Post():
 	"""class post will show the posts that members create
@@ -36,8 +43,15 @@ class Post():
 	def __str__(self):
 		return 'Title: {} \nContent: {}'.format(self.title, self.content)
 	def __repr__(self):
-		return "<title:%s content %s>"%(self.title,self.content)	
+		return "<title:%s content %s>"%(self.title,self.content)
 
+		def __dict__(self):
+			return {
+    			"id":self.id,
+    			"title":self.title,
+    			"content":self.content,
+    			"member_id":self.member_id
+    		}
 
 		
 
