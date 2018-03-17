@@ -18,7 +18,7 @@ class Member():
 		return "<name:%s age %s>"%(self.name,self.age)
 	def __dict__(self):
 		return {
-			"id":self.id,
+		    "id":self.id,
 			"name":self.name,
 			"age":self.age,
 			"posts":self.posts,
@@ -45,12 +45,12 @@ class Post():
 	def __repr__(self):
 		return "<title:%s content %s>"%(self.title,self.content)
 
-		def __dict__(self):
-			return {
-    			"id":self.id,
-    			"title":self.title,
-    			"content":self.content,
-    			"member_id":self.member_id
+	def __dict__(self):
+		return {
+    		"id":self.id,
+    		"title":self.title,
+    		"content":self.content,
+    		"member_id":self.member_id
     		}
 
 		
